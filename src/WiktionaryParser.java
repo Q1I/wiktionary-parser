@@ -24,23 +24,6 @@ import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 
-
-
-/**
- * Demoprogramm zum Parsen von XML-Daten.
- * <P>
- * Klasse ist von DefaultHandler abgeleitet. Diese implementiert alle
- * notwendigen Methoden des ContentHandler-Interface, so dass nur die
- * projektspezifischen Methoden &uuml;berladen werden m&uuml;ssen.
- * <P>
- * Diese Demo-Klasse liest alle wichtigen Daten aus der cities.xml Datei ein.
- * F&uuml;r diese Daten fehlt nur noch die Datenbankschnittstelle.<BR>
- * Sie sollte sich aber auch einfach an die Anforderungen der country????.xml
- * Dateien anpassen lassen.
- * 
- * @author Timo B&ouml;hme
- * @version 1.0
- */
 public class WiktionaryParser extends DefaultHandler {
 
 	// -- Globale Variablen ----------------------------------------------------
